@@ -16,7 +16,9 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://todo-app-frontend-tiny.vercel.app"
+                                "https://todo-app-frontend-tiny.vercel.app",
+                                "https://todo-app-frontend-ybvd.vercel.app",
+                                "https://todo-app-frontend-five-lac.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
